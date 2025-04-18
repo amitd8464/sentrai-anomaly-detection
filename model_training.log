@@ -1,0 +1,105 @@
+2025-04-20 17:10:45,132 - __main__ - INFO - Starting model training process
+2025-04-20 17:10:45,144 - __main__ - INFO - Loading data from /Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/data/user_logs.db
+2025-04-20 17:10:45,178 - __main__ - INFO - Dataset shape: (5000, 9)
+2025-04-20 17:10:45,179 - __main__ - INFO - Missing values: 0
+2025-04-20 17:10:45,180 - __main__ - INFO - Performing feature engineering
+2025-04-20 17:10:45,182 - __main__ - INFO - Adding behavioral features
+2025-04-20 17:10:45,195 - __main__ - INFO - Splitting data into train/test sets with test_size=0.2
+2025-04-20 17:10:45,197 - __main__ - INFO - Defining feature sets
+2025-04-20 17:10:45,197 - __main__ - INFO - Building model pipeline
+2025-04-20 17:10:45,197 - __main__ - INFO - Fitting model on training data
+2025-04-20 17:10:45,197 - __main__ - ERROR - Error in model training: Feature names are only supported if all input features have string names, but your input has ['quoted_name', 'str'] as feature name / column name types. If you want feature names to be stored and validated, you must convert them all to strings, by using X.columns = X.columns.astype(str) for example. Otherwise you can remove feature / column names from your input data, or convert them all to a non-string data type.
+Traceback (most recent call last):
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/app/models/train_model.py", line 145, in train_model
+    pipeline.fit(train_df)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/pipeline.py", line 654, in fit
+    Xt = self._fit(X, y, routed_params, raw_params=params)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/pipeline.py", line 588, in _fit
+    X, fitted_transformer = fit_transform_one_cached(
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/joblib/memory.py", line 312, in __call__
+    return self.func(*args, **kwargs)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/pipeline.py", line 1551, in _fit_transform_one
+    res = transformer.fit_transform(X, y, **params.get("fit_transform", {}))
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/compose/_column_transformer.py", line 985, in fit_transform
+    _check_feature_names(self, X, reset=True)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2715, in _check_feature_names
+    feature_names_in = _get_feature_names(X)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2417, in _get_feature_names
+    raise TypeError(
+TypeError: Feature names are only supported if all input features have string names, but your input has ['quoted_name', 'str'] as feature name / column name types. If you want feature names to be stored and validated, you must convert them all to strings, by using X.columns = X.columns.astype(str) for example. Otherwise you can remove feature / column names from your input data, or convert them all to a non-string data type.
+2025-04-20 17:16:12,541 - __main__ - INFO - Starting model training process
+2025-04-20 17:16:12,551 - __main__ - INFO - Loading data from /Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/data/user_logs.db
+2025-04-20 17:16:12,606 - __main__ - INFO - Dataset shape: (5000, 9)
+2025-04-20 17:16:12,607 - __main__ - INFO - Missing values: 0
+2025-04-20 17:16:12,608 - __main__ - INFO - Performing feature engineering
+2025-04-20 17:16:12,610 - __main__ - INFO - Adding behavioral features
+2025-04-20 17:16:12,618 - __main__ - INFO - Splitting data into train/test sets with test_size=0.2
+2025-04-20 17:16:12,620 - __main__ - INFO - Defining feature sets
+2025-04-20 17:16:12,620 - __main__ - INFO - Building model pipeline
+2025-04-20 17:16:12,620 - __main__ - INFO - Fitting model on training data
+2025-04-20 17:16:12,620 - __main__ - ERROR - Error in model training: Feature names are only supported if all input features have string names, but your input has ['quoted_name', 'str'] as feature name / column name types. If you want feature names to be stored and validated, you must convert them all to strings, by using X.columns = X.columns.astype(str) for example. Otherwise you can remove feature / column names from your input data, or convert them all to a non-string data type.
+Traceback (most recent call last):
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/app/models/train_model.py", line 154, in train_model
+    pipeline.fit(train_df)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/pipeline.py", line 654, in fit
+    Xt = self._fit(X, y, routed_params, raw_params=params)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/pipeline.py", line 588, in _fit
+    X, fitted_transformer = fit_transform_one_cached(
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/joblib/memory.py", line 312, in __call__
+    return self.func(*args, **kwargs)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/pipeline.py", line 1551, in _fit_transform_one
+    res = transformer.fit_transform(X, y, **params.get("fit_transform", {}))
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/compose/_column_transformer.py", line 985, in fit_transform
+    _check_feature_names(self, X, reset=True)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2715, in _check_feature_names
+    feature_names_in = _get_feature_names(X)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2417, in _get_feature_names
+    raise TypeError(
+TypeError: Feature names are only supported if all input features have string names, but your input has ['quoted_name', 'str'] as feature name / column name types. If you want feature names to be stored and validated, you must convert them all to strings, by using X.columns = X.columns.astype(str) for example. Otherwise you can remove feature / column names from your input data, or convert them all to a non-string data type.
+2025-04-20 17:16:47,510 - __main__ - INFO - Starting model training process
+2025-04-20 17:16:47,521 - __main__ - INFO - Loading data from /Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/data/user_logs.db
+2025-04-20 17:16:47,586 - __main__ - INFO - Dataset shape: (5000, 9)
+2025-04-20 17:16:47,587 - __main__ - INFO - Missing values: 0
+2025-04-20 17:16:47,587 - __main__ - INFO - Performing feature engineering
+2025-04-20 17:16:47,590 - __main__ - INFO - Adding behavioral features
+2025-04-20 17:16:47,601 - __main__ - INFO - Splitting data into train/test sets with test_size=0.2
+2025-04-20 17:16:47,608 - __main__ - INFO - Defining feature sets
+2025-04-20 17:16:47,608 - __main__ - INFO - Building model pipeline
+2025-04-20 17:16:47,608 - __main__ - INFO - Fitting model on training data
+2025-04-20 17:16:47,608 - __main__ - ERROR - Error in model training: Feature names are only supported if all input features have string names, but your input has ['quoted_name', 'str'] as feature name / column name types. If you want feature names to be stored and validated, you must convert them all to strings, by using X.columns = X.columns.astype(str) for example. Otherwise you can remove feature / column names from your input data, or convert them all to a non-string data type.
+Traceback (most recent call last):
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/app/models/train_model.py", line 154, in train_model
+    pipeline.fit(train_df)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/pipeline.py", line 654, in fit
+    Xt = self._fit(X, y, routed_params, raw_params=params)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/pipeline.py", line 588, in _fit
+    X, fitted_transformer = fit_transform_one_cached(
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/joblib/memory.py", line 312, in __call__
+    return self.func(*args, **kwargs)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/pipeline.py", line 1551, in _fit_transform_one
+    res = transformer.fit_transform(X, y, **params.get("fit_transform", {}))
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/compose/_column_transformer.py", line 985, in fit_transform
+    _check_feature_names(self, X, reset=True)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2715, in _check_feature_names
+    feature_names_in = _get_feature_names(X)
+  File "/Users/deshpande_amit/Downloads/secu-scope-smooth-fixed/backend/venv/lib/python3.10/site-packages/sklearn/utils/validation.py", line 2417, in _get_feature_names
+    raise TypeError(
+TypeError: Feature names are only supported if all input features have string names, but your input has ['quoted_name', 'str'] as feature name / column name types. If you want feature names to be stored and validated, you must convert them all to strings, by using X.columns = X.columns.astype(str) for example. Otherwise you can remove feature / column names from your input data, or convert them all to a non-string data type.
