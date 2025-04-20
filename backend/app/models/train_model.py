@@ -4,16 +4,14 @@ import os
 from pathlib import Path
 import numpy as np
 import pandas as pd
-from sklearn.ensemble import IsolationForest
+from sklearn.svm import OneClassSVM
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.pipeline import Pipeline
 import joblib
-from sqlalchemy import create_engine
 from dotenv import load_dotenv
 import sqlite3
 
-# Load environment variables
 dotenv_path = Path(__file__).parents[3] / '.env'
 load_dotenv(dotenv_path=dotenv_path)
 
@@ -24,8 +22,7 @@ def train_model():
         print(f"Loading data from: {db_file}")
         conn = sqlite3.connect(db_file)
         df = pd.read_sql_query("SELECT * FROM user_logs", conn)
-        if 'timestamp' in df.columns:
-            df['timestamp'] = pd.to_datetime(df['timestamp'])
+        df['timestamp'] = pd.to_datetime(df['timestamp'])
 
         # Feature engineering
         df['hour_sin'] = np.sin(2 * np.pi * df['hour_of_day'] / 24)
@@ -34,12 +31,12 @@ def train_model():
         df['dow_sin'] = np.sin(2 * np.pi * df['dow'] / 7)
         df['dow_cos'] = np.cos(2 * np.pi * df['dow'] / 7)
 
-        # New behavioral features
         df['user_action_count'] = df.groupby('user_id')['timestamp'].transform('count')
         df['unique_resources'] = df.groupby('user_id')['resource'].transform('nunique')
         df['location_switches'] = df.groupby('user_id')['location'].transform(lambda x: (x != x.shift()).sum())
         df['avg_files_accessed'] = df.groupby('user_id')['num_files_accessed'].transform('mean')
-        df['action_entropy'] = df.groupby('user_id')['action_type'].transform(lambda x: -np.sum(pd.Series(x).value_counts(normalize=True) * np.log2(pd.Series(x).value_counts(normalize=True) + 1e-9)))
+        df['action_entropy'] = df.groupby('user_id')['action_type'].transform(
+            lambda x: -np.sum(pd.Series(x).value_counts(normalize=True) * np.log2(pd.Series(x).value_counts(normalize=True) + 1e-9)))
 
         features = ['hour_sin', 'hour_cos', 'dow_sin', 'dow_cos',
                     'action_type', 'resource', 'location', 'device',
@@ -48,8 +45,6 @@ def train_model():
                     'avg_files_accessed', 'action_entropy']
 
         df = df[features + ['is_synthetic_anomaly']].dropna()
-
-        # Train only on normal data
         df_normal = df[df['is_synthetic_anomaly'] == 0]
         X = df_normal[features]
 
@@ -63,12 +58,12 @@ def train_model():
 
         pipe = Pipeline([
             ('transform', transformer),
-            ('clf', IsolationForest(contamination=0.005, random_state=42))
+            ('clf', OneClassSVM(kernel='rbf', gamma='scale', nu=0.05))  # nu is upper bound on anomalies
         ])
-        pipe.fit(X)
 
-        joblib.dump(pipe, project_root / 'backend' / 'app' / 'models' / 'anomaly_model.pkl')
-        print("✅ Model trained on normal data with engineered features.")
+        pipe.fit(X)
+        joblib.dump(pipe, project_root / 'backend' /'app' / 'models' / 'anomaly_model.pkl')
+        print("✅ OneClassSVM model trained.")
 
     except Exception as e:
         print(f"❌ Training failed: {e}")

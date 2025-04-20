@@ -6,7 +6,6 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 from sklearn.metrics import precision_score, recall_score, f1_score, roc_auc_score
-import matplotlib.pyplot as plt
 import sqlite3
 
 def test_model():
@@ -42,16 +41,8 @@ def test_model():
 
     X_transformed = pipeline.named_steps['transform'].transform(X)
     scores = pipeline.named_steps['clf'].decision_function(X_transformed)
-    threshold = np.percentile(scores, 10.0)  # Top 10% most anomalous
+    threshold = np.percentile(scores, 1.0)
     preds = (scores < threshold).astype(int)
-
-    plt.hist(scores, bins=50, alpha=0.7)
-    plt.axvline(np.percentile(scores, 10), color='red', linestyle='--', label='10% threshold')
-    plt.xlabel("Anomaly Score")
-    plt.ylabel("Frequency")
-    plt.title("IsolationForest Decision Function Scores")
-    plt.legend()
-    plt.show()
 
     print("Precision:", precision_score(y, preds))
     print("Recall:", recall_score(y, preds))
