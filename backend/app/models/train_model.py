@@ -8,6 +8,7 @@ from sklearn.svm import OneClassSVM
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.pipeline import Pipeline
+from sklearn.metrics import precision_score
 import joblib
 from dotenv import load_dotenv
 import sqlite3
@@ -46,24 +47,46 @@ def train_model():
 
         df = df[features + ['is_synthetic_anomaly']].dropna()
         df_normal = df[df['is_synthetic_anomaly'] == 0]
-        X = df_normal[features]
+        df_all = df
+        X_train = df_normal[features]
+        y_all = df_all['is_synthetic_anomaly']
+        X_all = df_all[features]
 
-        cat_cols = X.select_dtypes(include=['object', 'category']).columns.tolist()
-        num_cols = X.select_dtypes(include=['number']).columns.tolist()
+        cat_cols = X_train.select_dtypes(include=['object', 'category']).columns.tolist()
+        num_cols = X_train.select_dtypes(include=['number']).columns.tolist()
 
         transformer = ColumnTransformer([
             ('cat', OneHotEncoder(handle_unknown='ignore', sparse_output=False), cat_cols),
             ('num', StandardScaler(), num_cols)
         ])
 
-        pipe = Pipeline([
-            ('transform', transformer),
-            ('clf', OneClassSVM(kernel='rbf', gamma='scale', nu=0.05))  # nu is upper bound on anomalies
-        ])
+        best_pipe = None
+        best_precision = 0
+        best_nu = None
 
-        pipe.fit(X)
-        joblib.dump(pipe, project_root / 'backend' /'app' / 'models' / 'anomaly_model.pkl')
-        print("✅ OneClassSVM model trained.")
+        for nu in [0.01, 0.03, 0.05, 0.07, 0.1]:
+            print(f"Testing nu={nu}")
+            pipe = Pipeline([
+                ('transform', transformer),
+                ('clf', OneClassSVM(kernel='rbf', gamma='scale', nu=nu))
+            ])
+            pipe.fit(X_train)
+
+            X_all_transformed = pipe.named_steps['transform'].transform(X_all)
+            scores = pipe.named_steps['clf'].decision_function(X_all_transformed)
+            threshold = np.percentile(scores, 10.0)
+            preds = (scores < threshold).astype(int)
+
+            precision = precision_score(y_all, preds)
+            print(f"Precision for nu={nu}: {precision:.4f}")
+
+            if precision > best_precision:
+                best_pipe = pipe
+                best_precision = precision
+                best_nu = nu
+
+        print(f"✅ Best model uses nu={best_nu} with precision={best_precision:.4f}")
+        joblib.dump(best_pipe, project_root / 'backend' / 'app' / 'models' / 'anomaly_model.pkl')
 
     except Exception as e:
         print(f"❌ Training failed: {e}")
