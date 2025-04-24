@@ -6,9 +6,9 @@ from backend.app.models.log import UserLog
 import random
 from datetime import datetime, timedelta
 
-def generate_logs(num_users: int = 10,
-                  records_per_user: int = 500,
-                  anomaly_ratio: float = 0.01):
+def generate_logs(num_users: int = 75,
+                  records_per_user: int = 1000,
+                  anomaly_ratio: float = 0.05):
     """
     Generates synthetic user behavior logs in the SQLite database.
     """

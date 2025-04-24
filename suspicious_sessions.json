@@ -1,0 +1,5977 @@
+[
+  {
+    "user_id": "U001",
+    "session_index": 0,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 887,
+        "timestamp": "2025-03-22 00:35:55.274109",
+        "user_id": "U001",
+        "action_type": "access_resource",
+        "resource": "resource_45",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 0,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 195,
+        "timestamp": "2025-03-22 02:14:25.274109",
+        "user_id": "U001",
+        "action_type": "login",
+        "resource": "resource_21",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 2,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 603,
+        "timestamp": "2025-03-22 02:31:16.274109",
+        "user_id": "U001",
+        "action_type": "access_resource",
+        "resource": "resource_4",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 2,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 905,
+        "timestamp": "2025-03-22 03:26:21.274109",
+        "user_id": "U001",
+        "action_type": "download_file",
+        "resource": "resource_4",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 3,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 418,
+        "timestamp": "2025-03-22 04:20:48.274109",
+        "user_id": "U001",
+        "action_type": "download_file",
+        "resource": "resource_44",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 4,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U002",
+    "session_index": 1,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 1971,
+        "timestamp": "2025-03-22 01:17:30.274109",
+        "user_id": "U002",
+        "action_type": "login",
+        "resource": "resource_47",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 1,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 1876,
+        "timestamp": "2025-03-22 02:17:45.274109",
+        "user_id": "U002",
+        "action_type": "download_file",
+        "resource": "resource_40",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 2,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 1131,
+        "timestamp": "2025-03-22 02:23:10.274109",
+        "user_id": "U002",
+        "action_type": "download_file",
+        "resource": "resource_4",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 2,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 1809,
+        "timestamp": "2025-03-22 03:14:04.274109",
+        "user_id": "U002",
+        "action_type": "login",
+        "resource": "resource_49",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 3,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 1273,
+        "timestamp": "2025-03-22 04:43:59.274109",
+        "user_id": "U002",
+        "action_type": "access_resource",
+        "resource": "resource_50",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 4,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U003",
+    "session_index": 2,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 2356,
+        "timestamp": "2025-03-22 10:28:58.274109",
+        "user_id": "U003",
+        "action_type": "download_file",
+        "resource": "resource_46",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 10,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 2253,
+        "timestamp": "2025-03-22 10:57:03.274109",
+        "user_id": "U003",
+        "action_type": "download_file",
+        "resource": "resource_2",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 10,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 2528,
+        "timestamp": "2025-03-22 11:07:51.274109",
+        "user_id": "U003",
+        "action_type": "access_resource",
+        "resource": "resource_45",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 11,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 2862,
+        "timestamp": "2025-03-22 11:41:50.274109",
+        "user_id": "U003",
+        "action_type": "download_file",
+        "resource": "resource_41",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 11,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 2211,
+        "timestamp": "2025-03-22 12:25:55.274109",
+        "user_id": "U003",
+        "action_type": "download_file",
+        "resource": "resource_43",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 12,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U004",
+    "session_index": 3,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 3685,
+        "timestamp": "2025-03-22 13:28:58.274109",
+        "user_id": "U004",
+        "action_type": "login",
+        "resource": "resource_36",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 13,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 3389,
+        "timestamp": "2025-03-22 14:44:51.274109",
+        "user_id": "U004",
+        "action_type": "login",
+        "resource": "resource_22",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 14,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 3140,
+        "timestamp": "2025-03-22 16:18:16.274109",
+        "user_id": "U004",
+        "action_type": "access_resource",
+        "resource": "resource_4",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 16,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 3137,
+        "timestamp": "2025-03-22 17:07:45.274109",
+        "user_id": "U004",
+        "action_type": "download_file",
+        "resource": "resource_18",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 17,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 3030,
+        "timestamp": "2025-03-22 18:55:18.274109",
+        "user_id": "U004",
+        "action_type": "access_resource",
+        "resource": "resource_44",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 18,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U005",
+    "session_index": 4,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 4430,
+        "timestamp": "2025-03-22 09:44:39.274109",
+        "user_id": "U005",
+        "action_type": "access_resource",
+        "resource": "resource_50",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 9,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 4493,
+        "timestamp": "2025-03-22 10:12:40.274109",
+        "user_id": "U005",
+        "action_type": "login",
+        "resource": "resource_17",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 10,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 4540,
+        "timestamp": "2025-03-22 11:25:23.274109",
+        "user_id": "U005",
+        "action_type": "download_file",
+        "resource": "resource_23",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 11,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 4477,
+        "timestamp": "2025-03-22 12:40:21.274109",
+        "user_id": "U005",
+        "action_type": "access_resource",
+        "resource": "resource_35",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 12,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 4743,
+        "timestamp": "2025-03-22 12:42:50.274109",
+        "user_id": "U005",
+        "action_type": "login",
+        "resource": "resource_25",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 12,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U006",
+    "session_index": 5,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 5935,
+        "timestamp": "2025-03-22 21:16:07.274109",
+        "user_id": "U006",
+        "action_type": "login",
+        "resource": "resource_11",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 21,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 5863,
+        "timestamp": "2025-03-22 22:49:36.274109",
+        "user_id": "U006",
+        "action_type": "access_resource",
+        "resource": "resource_36",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 22,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 5427,
+        "timestamp": "2025-03-22 23:10:18.274109",
+        "user_id": "U006",
+        "action_type": "download_file",
+        "resource": "resource_43",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 23,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 5510,
+        "timestamp": "2025-03-22 23:29:14.274109",
+        "user_id": "U006",
+        "action_type": "download_file",
+        "resource": "resource_34",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 23,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 5567,
+        "timestamp": "2025-03-22 23:42:03.274109",
+        "user_id": "U006",
+        "action_type": "login",
+        "resource": "resource_12",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 23,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U007",
+    "session_index": 6,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 6803,
+        "timestamp": "2025-03-23 05:03:52.274109",
+        "user_id": "U007",
+        "action_type": "access_resource",
+        "resource": "resource_34",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 5,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 6373,
+        "timestamp": "2025-03-23 05:19:08.274109",
+        "user_id": "U007",
+        "action_type": "download_file",
+        "resource": "resource_2",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 5,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 6175,
+        "timestamp": "2025-03-23 05:45:53.274109",
+        "user_id": "U007",
+        "action_type": "access_resource",
+        "resource": "resource_29",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 5,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 6687,
+        "timestamp": "2025-03-23 08:18:40.274109",
+        "user_id": "U007",
+        "action_type": "login",
+        "resource": "resource_44",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 8,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 6076,
+        "timestamp": "2025-03-23 08:24:26.274109",
+        "user_id": "U007",
+        "action_type": "download_file",
+        "resource": "resource_5",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 8,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U008",
+    "session_index": 7,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 7309,
+        "timestamp": "2025-03-22 23:57:56.274109",
+        "user_id": "U008",
+        "action_type": "login",
+        "resource": "resource_11",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 23,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 7655,
+        "timestamp": "2025-03-23 00:47:44.274109",
+        "user_id": "U008",
+        "action_type": "download_file",
+        "resource": "resource_24",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 0,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 7729,
+        "timestamp": "2025-03-23 01:08:46.274109",
+        "user_id": "U008",
+        "action_type": "download_file",
+        "resource": "resource_44",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 1,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 7293,
+        "timestamp": "2025-03-23 03:00:09.274109",
+        "user_id": "U008",
+        "action_type": "download_file",
+        "resource": "resource_9",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 3,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 7979,
+        "timestamp": "2025-03-23 03:24:15.274109",
+        "user_id": "U008",
+        "action_type": "download_file",
+        "resource": "resource_46",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 3,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U009",
+    "session_index": 8,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 8122,
+        "timestamp": "2025-03-23 00:25:33.274109",
+        "user_id": "U009",
+        "action_type": "download_file",
+        "resource": "resource_43",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 0,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 8025,
+        "timestamp": "2025-03-23 00:25:58.274109",
+        "user_id": "U009",
+        "action_type": "login",
+        "resource": "resource_37",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 0,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 8740,
+        "timestamp": "2025-03-23 00:50:02.274109",
+        "user_id": "U009",
+        "action_type": "download_file",
+        "resource": "resource_22",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 0,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 8616,
+        "timestamp": "2025-03-23 01:05:10.274109",
+        "user_id": "U009",
+        "action_type": "login",
+        "resource": "resource_37",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 1,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 8793,
+        "timestamp": "2025-03-23 02:00:12.274109",
+        "user_id": "U009",
+        "action_type": "login",
+        "resource": "resource_38",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 2,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U010",
+    "session_index": 9,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 9188,
+        "timestamp": "2025-03-23 09:36:36.274109",
+        "user_id": "U010",
+        "action_type": "download_file",
+        "resource": "resource_22",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 9,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 9328,
+        "timestamp": "2025-03-23 11:27:39.274109",
+        "user_id": "U010",
+        "action_type": "login",
+        "resource": "resource_34",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 11,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 9400,
+        "timestamp": "2025-03-23 11:45:27.274109",
+        "user_id": "U010",
+        "action_type": "download_file",
+        "resource": "resource_2",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 11,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 9794,
+        "timestamp": "2025-03-23 12:00:41.274109",
+        "user_id": "U010",
+        "action_type": "access_resource",
+        "resource": "resource_42",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 12,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 9850,
+        "timestamp": "2025-03-23 12:10:34.274109",
+        "user_id": "U010",
+        "action_type": "download_file",
+        "resource": "resource_20",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 12,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U011",
+    "session_index": 10,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 10105,
+        "timestamp": "2025-03-23 16:03:42.274109",
+        "user_id": "U011",
+        "action_type": "download_file",
+        "resource": "resource_9",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 16,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 10927,
+        "timestamp": "2025-03-23 16:10:34.274109",
+        "user_id": "U011",
+        "action_type": "access_resource",
+        "resource": "resource_43",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 16,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 10830,
+        "timestamp": "2025-03-23 17:07:06.274109",
+        "user_id": "U011",
+        "action_type": "access_resource",
+        "resource": "resource_36",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 17,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 10703,
+        "timestamp": "2025-03-23 17:14:58.274109",
+        "user_id": "U011",
+        "action_type": "access_resource",
+        "resource": "resource_39",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 17,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 10857,
+        "timestamp": "2025-03-23 17:22:41.274109",
+        "user_id": "U011",
+        "action_type": "download_file",
+        "resource": "resource_4",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 17,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U012",
+    "session_index": 11,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 11984,
+        "timestamp": "2025-03-23 10:51:51.274109",
+        "user_id": "U012",
+        "action_type": "download_file",
+        "resource": "resource_1",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 10,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 11216,
+        "timestamp": "2025-03-23 10:55:48.274109",
+        "user_id": "U012",
+        "action_type": "access_resource",
+        "resource": "resource_28",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 10,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 11649,
+        "timestamp": "2025-03-23 11:28:24.274109",
+        "user_id": "U012",
+        "action_type": "login",
+        "resource": "resource_23",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 11,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 11823,
+        "timestamp": "2025-03-23 11:58:30.274109",
+        "user_id": "U012",
+        "action_type": "download_file",
+        "resource": "resource_41",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 11,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 11164,
+        "timestamp": "2025-03-23 12:28:12.274109",
+        "user_id": "U012",
+        "action_type": "login",
+        "resource": "resource_43",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 12,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U013",
+    "session_index": 12,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 12707,
+        "timestamp": "2025-03-23 15:36:45.274109",
+        "user_id": "U013",
+        "action_type": "download_file",
+        "resource": "resource_14",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 15,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 12056,
+        "timestamp": "2025-03-23 15:52:07.274109",
+        "user_id": "U013",
+        "action_type": "login",
+        "resource": "resource_38",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 15,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 12817,
+        "timestamp": "2025-03-23 16:37:02.274109",
+        "user_id": "U013",
+        "action_type": "download_file",
+        "resource": "resource_23",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 16,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 12944,
+        "timestamp": "2025-03-23 17:29:17.274109",
+        "user_id": "U013",
+        "action_type": "access_resource",
+        "resource": "resource_23",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 17,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 12205,
+        "timestamp": "2025-03-23 20:00:17.274109",
+        "user_id": "U013",
+        "action_type": "download_file",
+        "resource": "resource_12",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 20,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U014",
+    "session_index": 13,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 13641,
+        "timestamp": "2025-03-24 08:06:01.274109",
+        "user_id": "U014",
+        "action_type": "login",
+        "resource": "resource_22",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 8,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 13388,
+        "timestamp": "2025-03-24 08:16:13.274109",
+        "user_id": "U014",
+        "action_type": "login",
+        "resource": "resource_11",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 8,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 13993,
+        "timestamp": "2025-03-24 08:26:40.274109",
+        "user_id": "U014",
+        "action_type": "download_file",
+        "resource": "resource_17",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 8,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 13527,
+        "timestamp": "2025-03-24 09:09:59.274109",
+        "user_id": "U014",
+        "action_type": "download_file",
+        "resource": "resource_6",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 9,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 13869,
+        "timestamp": "2025-03-24 09:54:35.274109",
+        "user_id": "U014",
+        "action_type": "download_file",
+        "resource": "resource_8",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 9,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U015",
+    "session_index": 14,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 14184,
+        "timestamp": "2025-03-24 00:27:56.274109",
+        "user_id": "U015",
+        "action_type": "download_file",
+        "resource": "resource_44",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 0,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 14589,
+        "timestamp": "2025-03-24 01:04:51.274109",
+        "user_id": "U015",
+        "action_type": "access_resource",
+        "resource": "resource_14",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 1,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 14460,
+        "timestamp": "2025-03-24 01:38:37.274109",
+        "user_id": "U015",
+        "action_type": "download_file",
+        "resource": "resource_4",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 1,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 14089,
+        "timestamp": "2025-03-24 02:00:59.274109",
+        "user_id": "U015",
+        "action_type": "login",
+        "resource": "resource_30",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 2,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 14044,
+        "timestamp": "2025-03-24 02:05:11.274109",
+        "user_id": "U015",
+        "action_type": "access_resource",
+        "resource": "resource_47",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 2,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U016",
+    "session_index": 15,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 15454,
+        "timestamp": "2025-03-23 23:14:17.274109",
+        "user_id": "U016",
+        "action_type": "download_file",
+        "resource": "resource_18",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 23,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 15114,
+        "timestamp": "2025-03-23 23:19:25.274109",
+        "user_id": "U016",
+        "action_type": "login",
+        "resource": "resource_46",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 23,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 15983,
+        "timestamp": "2025-03-24 00:46:19.274109",
+        "user_id": "U016",
+        "action_type": "access_resource",
+        "resource": "resource_13",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 0,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 15219,
+        "timestamp": "2025-03-24 02:25:59.274109",
+        "user_id": "U016",
+        "action_type": "login",
+        "resource": "resource_7",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 2,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 15335,
+        "timestamp": "2025-03-24 02:39:22.274109",
+        "user_id": "U016",
+        "action_type": "access_resource",
+        "resource": "resource_28",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 2,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U017",
+    "session_index": 16,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 16006,
+        "timestamp": "2025-03-24 12:22:24.274109",
+        "user_id": "U017",
+        "action_type": "access_resource",
+        "resource": "resource_32",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 12,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 16220,
+        "timestamp": "2025-03-24 12:39:42.274109",
+        "user_id": "U017",
+        "action_type": "download_file",
+        "resource": "resource_1",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 12,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 16427,
+        "timestamp": "2025-03-24 13:28:21.274109",
+        "user_id": "U017",
+        "action_type": "download_file",
+        "resource": "resource_24",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 13,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 16604,
+        "timestamp": "2025-03-24 13:32:42.274109",
+        "user_id": "U017",
+        "action_type": "download_file",
+        "resource": "resource_4",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 13,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 16970,
+        "timestamp": "2025-03-24 14:34:01.274109",
+        "user_id": "U017",
+        "action_type": "login",
+        "resource": "resource_35",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 14,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U018",
+    "session_index": 17,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 17786,
+        "timestamp": "2025-03-24 04:30:14.274109",
+        "user_id": "U018",
+        "action_type": "login",
+        "resource": "resource_50",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 4,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 17479,
+        "timestamp": "2025-03-24 05:25:06.274109",
+        "user_id": "U018",
+        "action_type": "download_file",
+        "resource": "resource_49",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 5,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 17584,
+        "timestamp": "2025-03-24 05:41:50.274109",
+        "user_id": "U018",
+        "action_type": "login",
+        "resource": "resource_42",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 5,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 17776,
+        "timestamp": "2025-03-24 05:59:07.274109",
+        "user_id": "U018",
+        "action_type": "login",
+        "resource": "resource_33",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 5,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 17243,
+        "timestamp": "2025-03-24 06:02:43.274109",
+        "user_id": "U018",
+        "action_type": "download_file",
+        "resource": "resource_26",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 6,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U019",
+    "session_index": 18,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 18451,
+        "timestamp": "2025-03-24 19:17:48.274109",
+        "user_id": "U019",
+        "action_type": "access_resource",
+        "resource": "resource_27",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 19,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 18775,
+        "timestamp": "2025-03-24 19:43:55.274109",
+        "user_id": "U019",
+        "action_type": "download_file",
+        "resource": "resource_8",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 19,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 18064,
+        "timestamp": "2025-03-24 20:55:44.274109",
+        "user_id": "U019",
+        "action_type": "download_file",
+        "resource": "resource_3",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 20,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 18588,
+        "timestamp": "2025-03-24 21:14:34.274109",
+        "user_id": "U019",
+        "action_type": "access_resource",
+        "resource": "resource_50",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 21,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 18105,
+        "timestamp": "2025-03-24 21:28:25.274109",
+        "user_id": "U019",
+        "action_type": "access_resource",
+        "resource": "resource_42",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 21,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U020",
+    "session_index": 19,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 19603,
+        "timestamp": "2025-03-24 16:05:20.274109",
+        "user_id": "U020",
+        "action_type": "download_file",
+        "resource": "resource_42",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 16,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 20000,
+        "timestamp": "2025-03-24 17:40:05.274109",
+        "user_id": "U020",
+        "action_type": "login",
+        "resource": "resource_4",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 17,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 19597,
+        "timestamp": "2025-03-24 17:49:37.274109",
+        "user_id": "U020",
+        "action_type": "login",
+        "resource": "resource_28",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 17,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 19885,
+        "timestamp": "2025-03-24 17:56:07.274109",
+        "user_id": "U020",
+        "action_type": "download_file",
+        "resource": "resource_25",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 17,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 19447,
+        "timestamp": "2025-03-24 19:47:15.274109",
+        "user_id": "U020",
+        "action_type": "login",
+        "resource": "resource_5",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 19,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U021",
+    "session_index": 20,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 20070,
+        "timestamp": "2025-03-24 12:50:20.274109",
+        "user_id": "U021",
+        "action_type": "access_resource",
+        "resource": "resource_2",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 12,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 20704,
+        "timestamp": "2025-03-24 12:54:01.274109",
+        "user_id": "U021",
+        "action_type": "access_resource",
+        "resource": "resource_47",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 12,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 20840,
+        "timestamp": "2025-03-24 12:56:28.274109",
+        "user_id": "U021",
+        "action_type": "access_resource",
+        "resource": "resource_39",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 12,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 20739,
+        "timestamp": "2025-03-24 13:33:45.274109",
+        "user_id": "U021",
+        "action_type": "download_file",
+        "resource": "resource_19",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 13,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 20777,
+        "timestamp": "2025-03-24 14:13:37.274109",
+        "user_id": "U021",
+        "action_type": "access_resource",
+        "resource": "resource_3",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 14,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U022",
+    "session_index": 21,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 21352,
+        "timestamp": "2025-03-25 06:27:02.274109",
+        "user_id": "U022",
+        "action_type": "download_file",
+        "resource": "resource_43",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 6,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 21914,
+        "timestamp": "2025-03-25 07:23:36.274109",
+        "user_id": "U022",
+        "action_type": "access_resource",
+        "resource": "resource_40",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 7,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 21458,
+        "timestamp": "2025-03-25 08:05:31.274109",
+        "user_id": "U022",
+        "action_type": "download_file",
+        "resource": "resource_35",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 8,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 21137,
+        "timestamp": "2025-03-25 08:34:14.274109",
+        "user_id": "U022",
+        "action_type": "login",
+        "resource": "resource_26",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 8,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 21374,
+        "timestamp": "2025-03-25 08:35:17.274109",
+        "user_id": "U022",
+        "action_type": "download_file",
+        "resource": "resource_6",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 8,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U023",
+    "session_index": 22,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 22749,
+        "timestamp": "2025-03-24 22:03:39.274109",
+        "user_id": "U023",
+        "action_type": "download_file",
+        "resource": "resource_25",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 22,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 22866,
+        "timestamp": "2025-03-24 23:17:43.274109",
+        "user_id": "U023",
+        "action_type": "login",
+        "resource": "resource_18",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 23,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 22508,
+        "timestamp": "2025-03-25 00:06:50.274109",
+        "user_id": "U023",
+        "action_type": "download_file",
+        "resource": "resource_43",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 0,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 22413,
+        "timestamp": "2025-03-25 00:44:40.274109",
+        "user_id": "U023",
+        "action_type": "access_resource",
+        "resource": "resource_16",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 0,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 22711,
+        "timestamp": "2025-03-25 00:46:37.274109",
+        "user_id": "U023",
+        "action_type": "login",
+        "resource": "resource_13",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 0,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U024",
+    "session_index": 23,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 23468,
+        "timestamp": "2025-03-25 06:11:16.274109",
+        "user_id": "U024",
+        "action_type": "download_file",
+        "resource": "resource_25",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 6,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 23625,
+        "timestamp": "2025-03-25 06:14:50.274109",
+        "user_id": "U024",
+        "action_type": "login",
+        "resource": "resource_41",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 6,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 23944,
+        "timestamp": "2025-03-25 06:15:35.274109",
+        "user_id": "U024",
+        "action_type": "login",
+        "resource": "resource_40",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 6,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 23454,
+        "timestamp": "2025-03-25 06:24:10.274109",
+        "user_id": "U024",
+        "action_type": "login",
+        "resource": "resource_13",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 6,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 23130,
+        "timestamp": "2025-03-25 06:33:09.274109",
+        "user_id": "U024",
+        "action_type": "login",
+        "resource": "resource_24",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 6,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U025",
+    "session_index": 24,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 24011,
+        "timestamp": "2025-03-25 16:22:40.274109",
+        "user_id": "U025",
+        "action_type": "access_resource",
+        "resource": "resource_46",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 16,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 24694,
+        "timestamp": "2025-03-25 16:34:48.274109",
+        "user_id": "U025",
+        "action_type": "access_resource",
+        "resource": "resource_12",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 16,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 24170,
+        "timestamp": "2025-03-25 16:57:57.274109",
+        "user_id": "U025",
+        "action_type": "download_file",
+        "resource": "resource_12",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 16,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 24293,
+        "timestamp": "2025-03-25 17:32:41.274109",
+        "user_id": "U025",
+        "action_type": "login",
+        "resource": "resource_27",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 17,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 24244,
+        "timestamp": "2025-03-25 18:49:04.274109",
+        "user_id": "U025",
+        "action_type": "download_file",
+        "resource": "resource_15",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 18,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U026",
+    "session_index": 25,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 25095,
+        "timestamp": "2025-03-26 08:31:22.274109",
+        "user_id": "U026",
+        "action_type": "download_file",
+        "resource": "resource_10",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 8,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 25765,
+        "timestamp": "2025-03-26 08:46:17.274109",
+        "user_id": "U026",
+        "action_type": "access_resource",
+        "resource": "resource_18",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 8,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 25260,
+        "timestamp": "2025-03-26 09:33:45.274109",
+        "user_id": "U026",
+        "action_type": "access_resource",
+        "resource": "resource_28",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 9,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 25986,
+        "timestamp": "2025-03-26 09:47:26.274109",
+        "user_id": "U026",
+        "action_type": "login",
+        "resource": "resource_25",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 9,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 25839,
+        "timestamp": "2025-03-26 10:29:26.274109",
+        "user_id": "U026",
+        "action_type": "download_file",
+        "resource": "resource_40",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 10,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U027",
+    "session_index": 26,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 26563,
+        "timestamp": "2025-03-26 02:02:07.274109",
+        "user_id": "U027",
+        "action_type": "download_file",
+        "resource": "resource_14",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 2,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 26346,
+        "timestamp": "2025-03-26 02:31:56.274109",
+        "user_id": "U027",
+        "action_type": "download_file",
+        "resource": "resource_31",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 2,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 26164,
+        "timestamp": "2025-03-26 05:46:30.274109",
+        "user_id": "U027",
+        "action_type": "access_resource",
+        "resource": "resource_48",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 5,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 26961,
+        "timestamp": "2025-03-26 07:06:16.274109",
+        "user_id": "U027",
+        "action_type": "login",
+        "resource": "resource_10",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 7,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 26242,
+        "timestamp": "2025-03-26 10:56:26.274109",
+        "user_id": "U027",
+        "action_type": "login",
+        "resource": "resource_18",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 10,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U028",
+    "session_index": 27,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 27171,
+        "timestamp": "2025-03-25 23:53:11.274109",
+        "user_id": "U028",
+        "action_type": "download_file",
+        "resource": "resource_34",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 23,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 27040,
+        "timestamp": "2025-03-26 00:25:07.274109",
+        "user_id": "U028",
+        "action_type": "login",
+        "resource": "resource_50",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 0,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 27144,
+        "timestamp": "2025-03-26 01:00:33.274109",
+        "user_id": "U028",
+        "action_type": "download_file",
+        "resource": "resource_2",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 1,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 27270,
+        "timestamp": "2025-03-26 01:38:55.274109",
+        "user_id": "U028",
+        "action_type": "download_file",
+        "resource": "resource_50",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 1,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 27756,
+        "timestamp": "2025-03-26 01:46:26.274109",
+        "user_id": "U028",
+        "action_type": "login",
+        "resource": "resource_6",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 1,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U029",
+    "session_index": 28,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 28735,
+        "timestamp": "2025-03-26 17:30:33.274109",
+        "user_id": "U029",
+        "action_type": "download_file",
+        "resource": "resource_4",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 17,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 28889,
+        "timestamp": "2025-03-26 18:24:35.274109",
+        "user_id": "U029",
+        "action_type": "download_file",
+        "resource": "resource_8",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 18,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 28001,
+        "timestamp": "2025-03-26 18:32:42.274109",
+        "user_id": "U029",
+        "action_type": "login",
+        "resource": "resource_6",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 18,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 28795,
+        "timestamp": "2025-03-26 18:46:53.274109",
+        "user_id": "U029",
+        "action_type": "download_file",
+        "resource": "resource_6",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 18,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 28923,
+        "timestamp": "2025-03-26 19:28:02.274109",
+        "user_id": "U029",
+        "action_type": "access_resource",
+        "resource": "resource_34",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 19,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U030",
+    "session_index": 29,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 29771,
+        "timestamp": "2025-03-26 06:30:44.274109",
+        "user_id": "U030",
+        "action_type": "download_file",
+        "resource": "resource_10",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 6,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 29644,
+        "timestamp": "2025-03-26 06:52:15.274109",
+        "user_id": "U030",
+        "action_type": "login",
+        "resource": "resource_12",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 6,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 29833,
+        "timestamp": "2025-03-26 07:40:43.274109",
+        "user_id": "U030",
+        "action_type": "access_resource",
+        "resource": "resource_25",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 7,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 29786,
+        "timestamp": "2025-03-26 07:49:36.274109",
+        "user_id": "U030",
+        "action_type": "download_file",
+        "resource": "resource_12",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 7,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 29867,
+        "timestamp": "2025-03-26 08:44:18.274109",
+        "user_id": "U030",
+        "action_type": "access_resource",
+        "resource": "resource_33",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 8,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U031",
+    "session_index": 30,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 30201,
+        "timestamp": "2025-03-26 12:51:48.274109",
+        "user_id": "U031",
+        "action_type": "login",
+        "resource": "resource_50",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 12,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 30588,
+        "timestamp": "2025-03-26 14:16:58.274109",
+        "user_id": "U031",
+        "action_type": "login",
+        "resource": "resource_33",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 14,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 30883,
+        "timestamp": "2025-03-26 15:51:58.274109",
+        "user_id": "U031",
+        "action_type": "download_file",
+        "resource": "resource_16",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 15,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 30602,
+        "timestamp": "2025-03-26 16:19:22.274109",
+        "user_id": "U031",
+        "action_type": "download_file",
+        "resource": "resource_36",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 16,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 30684,
+        "timestamp": "2025-03-26 16:56:16.274109",
+        "user_id": "U031",
+        "action_type": "download_file",
+        "resource": "resource_5",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 16,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U032",
+    "session_index": 31,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 31898,
+        "timestamp": "2025-03-26 12:16:38.274109",
+        "user_id": "U032",
+        "action_type": "access_resource",
+        "resource": "resource_17",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 12,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 31666,
+        "timestamp": "2025-03-26 12:20:01.274109",
+        "user_id": "U032",
+        "action_type": "login",
+        "resource": "resource_7",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 12,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 31399,
+        "timestamp": "2025-03-26 12:27:10.274109",
+        "user_id": "U032",
+        "action_type": "access_resource",
+        "resource": "resource_28",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 12,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 31538,
+        "timestamp": "2025-03-26 13:41:11.274109",
+        "user_id": "U032",
+        "action_type": "login",
+        "resource": "resource_28",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 13,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 31888,
+        "timestamp": "2025-03-26 14:08:10.274109",
+        "user_id": "U032",
+        "action_type": "access_resource",
+        "resource": "resource_14",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 14,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U033",
+    "session_index": 32,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 32231,
+        "timestamp": "2025-03-26 11:59:54.274109",
+        "user_id": "U033",
+        "action_type": "login",
+        "resource": "resource_48",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 11,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 32012,
+        "timestamp": "2025-03-26 12:12:35.274109",
+        "user_id": "U033",
+        "action_type": "access_resource",
+        "resource": "resource_39",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 12,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 32909,
+        "timestamp": "2025-03-26 12:26:34.274109",
+        "user_id": "U033",
+        "action_type": "access_resource",
+        "resource": "resource_40",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 12,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 32967,
+        "timestamp": "2025-03-26 13:33:00.274109",
+        "user_id": "U033",
+        "action_type": "download_file",
+        "resource": "resource_23",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 13,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 32925,
+        "timestamp": "2025-03-26 14:58:10.274109",
+        "user_id": "U033",
+        "action_type": "download_file",
+        "resource": "resource_36",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 14,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U034",
+    "session_index": 33,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 33218,
+        "timestamp": "2025-03-27 00:19:57.274109",
+        "user_id": "U034",
+        "action_type": "login",
+        "resource": "resource_20",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 0,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 33001,
+        "timestamp": "2025-03-27 01:10:51.274109",
+        "user_id": "U034",
+        "action_type": "download_file",
+        "resource": "resource_4",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 1,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 33568,
+        "timestamp": "2025-03-27 03:18:56.274109",
+        "user_id": "U034",
+        "action_type": "login",
+        "resource": "resource_27",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 3,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 33456,
+        "timestamp": "2025-03-27 03:51:32.274109",
+        "user_id": "U034",
+        "action_type": "login",
+        "resource": "resource_8",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 3,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 33666,
+        "timestamp": "2025-03-27 03:59:15.274109",
+        "user_id": "U034",
+        "action_type": "access_resource",
+        "resource": "resource_22",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 3,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U035",
+    "session_index": 34,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 34452,
+        "timestamp": "2025-03-26 23:24:49.274109",
+        "user_id": "U035",
+        "action_type": "access_resource",
+        "resource": "resource_7",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 23,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 34254,
+        "timestamp": "2025-03-27 00:05:36.274109",
+        "user_id": "U035",
+        "action_type": "access_resource",
+        "resource": "resource_43",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 0,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 34051,
+        "timestamp": "2025-03-27 03:22:21.274109",
+        "user_id": "U035",
+        "action_type": "login",
+        "resource": "resource_46",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 3,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 34709,
+        "timestamp": "2025-03-27 04:11:37.274109",
+        "user_id": "U035",
+        "action_type": "download_file",
+        "resource": "resource_17",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 4,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 34988,
+        "timestamp": "2025-03-27 04:33:27.274109",
+        "user_id": "U035",
+        "action_type": "download_file",
+        "resource": "resource_49",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 4,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U036",
+    "session_index": 35,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 35668,
+        "timestamp": "2025-03-26 07:31:55.274109",
+        "user_id": "U036",
+        "action_type": "login",
+        "resource": "resource_5",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 7,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 35880,
+        "timestamp": "2025-03-26 08:55:36.274109",
+        "user_id": "U036",
+        "action_type": "access_resource",
+        "resource": "resource_8",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 8,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 35371,
+        "timestamp": "2025-03-26 09:59:44.274109",
+        "user_id": "U036",
+        "action_type": "login",
+        "resource": "resource_8",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 9,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 35252,
+        "timestamp": "2025-03-26 10:06:17.274109",
+        "user_id": "U036",
+        "action_type": "access_resource",
+        "resource": "resource_20",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 10,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 35884,
+        "timestamp": "2025-03-26 10:11:10.274109",
+        "user_id": "U036",
+        "action_type": "download_file",
+        "resource": "resource_26",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 10,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U037",
+    "session_index": 36,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 36173,
+        "timestamp": "2025-03-27 20:46:08.274109",
+        "user_id": "U037",
+        "action_type": "login",
+        "resource": "resource_42",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 20,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 36571,
+        "timestamp": "2025-03-27 21:07:05.274109",
+        "user_id": "U037",
+        "action_type": "access_resource",
+        "resource": "resource_21",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 21,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 36918,
+        "timestamp": "2025-03-27 21:37:26.274109",
+        "user_id": "U037",
+        "action_type": "access_resource",
+        "resource": "resource_42",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 21,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 36892,
+        "timestamp": "2025-03-27 23:11:06.274109",
+        "user_id": "U037",
+        "action_type": "login",
+        "resource": "resource_27",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 23,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 36219,
+        "timestamp": "2025-03-28 00:40:02.274109",
+        "user_id": "U037",
+        "action_type": "login",
+        "resource": "resource_9",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 0,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U038",
+    "session_index": 37,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 37347,
+        "timestamp": "2025-03-28 02:44:20.274109",
+        "user_id": "U038",
+        "action_type": "access_resource",
+        "resource": "resource_5",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 2,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 37878,
+        "timestamp": "2025-03-28 03:20:40.274109",
+        "user_id": "U038",
+        "action_type": "access_resource",
+        "resource": "resource_17",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 3,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 37256,
+        "timestamp": "2025-03-28 03:36:55.274109",
+        "user_id": "U038",
+        "action_type": "login",
+        "resource": "resource_36",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 3,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 37418,
+        "timestamp": "2025-03-28 04:13:25.274109",
+        "user_id": "U038",
+        "action_type": "download_file",
+        "resource": "resource_29",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 4,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 37789,
+        "timestamp": "2025-03-28 04:34:19.274109",
+        "user_id": "U038",
+        "action_type": "download_file",
+        "resource": "resource_47",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 4,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U039",
+    "session_index": 38,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 38061,
+        "timestamp": "2025-03-28 01:54:23.274109",
+        "user_id": "U039",
+        "action_type": "download_file",
+        "resource": "resource_29",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 1,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 38015,
+        "timestamp": "2025-03-28 03:49:43.274109",
+        "user_id": "U039",
+        "action_type": "login",
+        "resource": "resource_2",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 3,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 38049,
+        "timestamp": "2025-03-28 04:17:22.274109",
+        "user_id": "U039",
+        "action_type": "login",
+        "resource": "resource_42",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 4,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 38672,
+        "timestamp": "2025-03-28 05:09:20.274109",
+        "user_id": "U039",
+        "action_type": "download_file",
+        "resource": "resource_7",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 5,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 38741,
+        "timestamp": "2025-03-28 06:19:28.274109",
+        "user_id": "U039",
+        "action_type": "login",
+        "resource": "resource_44",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 6,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U040",
+    "session_index": 39,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 39392,
+        "timestamp": "2025-03-27 11:50:40.274109",
+        "user_id": "U040",
+        "action_type": "login",
+        "resource": "resource_3",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 11,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 39926,
+        "timestamp": "2025-03-27 12:04:41.274109",
+        "user_id": "U040",
+        "action_type": "login",
+        "resource": "resource_2",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 12,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 39818,
+        "timestamp": "2025-03-27 13:27:46.274109",
+        "user_id": "U040",
+        "action_type": "download_file",
+        "resource": "resource_35",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 13,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 39347,
+        "timestamp": "2025-03-27 13:45:36.274109",
+        "user_id": "U040",
+        "action_type": "download_file",
+        "resource": "resource_29",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 13,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 39743,
+        "timestamp": "2025-03-27 15:48:13.274109",
+        "user_id": "U040",
+        "action_type": "login",
+        "resource": "resource_49",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 15,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U041",
+    "session_index": 40,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 40933,
+        "timestamp": "2025-03-28 13:16:42.274109",
+        "user_id": "U041",
+        "action_type": "login",
+        "resource": "resource_14",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 13,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 40493,
+        "timestamp": "2025-03-28 14:03:57.274109",
+        "user_id": "U041",
+        "action_type": "access_resource",
+        "resource": "resource_33",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 14,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 40292,
+        "timestamp": "2025-03-28 14:24:11.274109",
+        "user_id": "U041",
+        "action_type": "download_file",
+        "resource": "resource_20",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 14,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 40435,
+        "timestamp": "2025-03-28 14:45:54.274109",
+        "user_id": "U041",
+        "action_type": "login",
+        "resource": "resource_41",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 14,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 40735,
+        "timestamp": "2025-03-28 16:47:53.274109",
+        "user_id": "U041",
+        "action_type": "download_file",
+        "resource": "resource_25",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 16,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U042",
+    "session_index": 41,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 41753,
+        "timestamp": "2025-03-28 03:37:04.274109",
+        "user_id": "U042",
+        "action_type": "access_resource",
+        "resource": "resource_34",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 3,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 41050,
+        "timestamp": "2025-03-28 03:37:11.274109",
+        "user_id": "U042",
+        "action_type": "login",
+        "resource": "resource_19",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 3,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 41438,
+        "timestamp": "2025-03-28 04:11:00.274109",
+        "user_id": "U042",
+        "action_type": "download_file",
+        "resource": "resource_42",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 4,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 41064,
+        "timestamp": "2025-03-28 05:42:39.274109",
+        "user_id": "U042",
+        "action_type": "download_file",
+        "resource": "resource_31",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 5,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 41941,
+        "timestamp": "2025-03-28 08:19:41.274109",
+        "user_id": "U042",
+        "action_type": "login",
+        "resource": "resource_38",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 8,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U043",
+    "session_index": 42,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 42793,
+        "timestamp": "2025-03-28 11:57:08.274109",
+        "user_id": "U043",
+        "action_type": "access_resource",
+        "resource": "resource_2",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 11,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 42176,
+        "timestamp": "2025-03-28 15:04:35.274109",
+        "user_id": "U043",
+        "action_type": "login",
+        "resource": "resource_13",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 15,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 42844,
+        "timestamp": "2025-03-28 15:33:54.274109",
+        "user_id": "U043",
+        "action_type": "download_file",
+        "resource": "resource_13",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 15,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 42257,
+        "timestamp": "2025-03-28 16:41:44.274109",
+        "user_id": "U043",
+        "action_type": "access_resource",
+        "resource": "resource_41",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 16,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 42586,
+        "timestamp": "2025-03-28 17:06:00.274109",
+        "user_id": "U043",
+        "action_type": "download_file",
+        "resource": "resource_23",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 17,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U044",
+    "session_index": 43,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 43066,
+        "timestamp": "2025-03-28 05:09:48.274109",
+        "user_id": "U044",
+        "action_type": "download_file",
+        "resource": "resource_20",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 5,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 43193,
+        "timestamp": "2025-03-28 05:44:07.274109",
+        "user_id": "U044",
+        "action_type": "download_file",
+        "resource": "resource_20",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 5,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 43050,
+        "timestamp": "2025-03-28 06:19:04.274109",
+        "user_id": "U044",
+        "action_type": "access_resource",
+        "resource": "resource_44",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 6,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 43310,
+        "timestamp": "2025-03-28 07:46:05.274109",
+        "user_id": "U044",
+        "action_type": "access_resource",
+        "resource": "resource_31",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 7,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 43619,
+        "timestamp": "2025-03-28 07:51:07.274109",
+        "user_id": "U044",
+        "action_type": "access_resource",
+        "resource": "resource_25",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 7,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U045",
+    "session_index": 44,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 44086,
+        "timestamp": "2025-03-28 01:19:55.274109",
+        "user_id": "U045",
+        "action_type": "login",
+        "resource": "resource_31",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 1,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 44009,
+        "timestamp": "2025-03-28 01:30:53.274109",
+        "user_id": "U045",
+        "action_type": "download_file",
+        "resource": "resource_47",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 1,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 44378,
+        "timestamp": "2025-03-28 03:21:25.274109",
+        "user_id": "U045",
+        "action_type": "login",
+        "resource": "resource_44",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 3,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 44471,
+        "timestamp": "2025-03-28 03:45:31.274109",
+        "user_id": "U045",
+        "action_type": "access_resource",
+        "resource": "resource_24",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 3,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 44429,
+        "timestamp": "2025-03-28 03:49:41.274109",
+        "user_id": "U045",
+        "action_type": "login",
+        "resource": "resource_28",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 3,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U046",
+    "session_index": 45,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 45854,
+        "timestamp": "2025-03-29 01:09:55.274109",
+        "user_id": "U046",
+        "action_type": "download_file",
+        "resource": "resource_28",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 1,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 45740,
+        "timestamp": "2025-03-29 01:35:49.274109",
+        "user_id": "U046",
+        "action_type": "download_file",
+        "resource": "resource_18",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 1,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 45073,
+        "timestamp": "2025-03-29 02:55:13.274109",
+        "user_id": "U046",
+        "action_type": "download_file",
+        "resource": "resource_48",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 2,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 45332,
+        "timestamp": "2025-03-29 03:32:46.274109",
+        "user_id": "U046",
+        "action_type": "access_resource",
+        "resource": "resource_44",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 3,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 45230,
+        "timestamp": "2025-03-29 04:20:16.274109",
+        "user_id": "U046",
+        "action_type": "download_file",
+        "resource": "resource_24",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 4,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U047",
+    "session_index": 46,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 46744,
+        "timestamp": "2025-03-28 10:08:10.274109",
+        "user_id": "U047",
+        "action_type": "download_file",
+        "resource": "resource_36",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 10,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 46073,
+        "timestamp": "2025-03-28 10:23:18.274109",
+        "user_id": "U047",
+        "action_type": "access_resource",
+        "resource": "resource_49",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 10,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 46824,
+        "timestamp": "2025-03-28 13:22:02.274109",
+        "user_id": "U047",
+        "action_type": "access_resource",
+        "resource": "resource_11",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 13,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 46421,
+        "timestamp": "2025-03-28 14:41:14.274109",
+        "user_id": "U047",
+        "action_type": "download_file",
+        "resource": "resource_17",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 14,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 46045,
+        "timestamp": "2025-03-28 15:58:21.274109",
+        "user_id": "U047",
+        "action_type": "download_file",
+        "resource": "resource_16",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 15,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U048",
+    "session_index": 47,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 47385,
+        "timestamp": "2025-03-28 19:55:34.274109",
+        "user_id": "U048",
+        "action_type": "access_resource",
+        "resource": "resource_4",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 19,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 47468,
+        "timestamp": "2025-03-28 20:24:45.274109",
+        "user_id": "U048",
+        "action_type": "login",
+        "resource": "resource_25",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 20,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 47139,
+        "timestamp": "2025-03-28 21:51:39.274109",
+        "user_id": "U048",
+        "action_type": "access_resource",
+        "resource": "resource_45",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 21,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 47776,
+        "timestamp": "2025-03-28 21:55:29.274109",
+        "user_id": "U048",
+        "action_type": "download_file",
+        "resource": "resource_29",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 21,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 47306,
+        "timestamp": "2025-03-28 22:07:55.274109",
+        "user_id": "U048",
+        "action_type": "download_file",
+        "resource": "resource_23",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 22,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U049",
+    "session_index": 48,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 48969,
+        "timestamp": "2025-03-28 13:57:20.274109",
+        "user_id": "U049",
+        "action_type": "download_file",
+        "resource": "resource_23",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 13,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 48416,
+        "timestamp": "2025-03-28 14:01:23.274109",
+        "user_id": "U049",
+        "action_type": "access_resource",
+        "resource": "resource_30",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 14,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 48056,
+        "timestamp": "2025-03-28 15:32:54.274109",
+        "user_id": "U049",
+        "action_type": "download_file",
+        "resource": "resource_22",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 15,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 48500,
+        "timestamp": "2025-03-28 16:21:44.274109",
+        "user_id": "U049",
+        "action_type": "download_file",
+        "resource": "resource_14",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 16,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 48137,
+        "timestamp": "2025-03-28 17:36:43.274109",
+        "user_id": "U049",
+        "action_type": "download_file",
+        "resource": "resource_5",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 17,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U050",
+    "session_index": 49,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 49628,
+        "timestamp": "2025-03-28 19:56:42.274109",
+        "user_id": "U050",
+        "action_type": "access_resource",
+        "resource": "resource_22",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 19,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 49165,
+        "timestamp": "2025-03-28 20:07:48.274109",
+        "user_id": "U050",
+        "action_type": "login",
+        "resource": "resource_21",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 20,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 49326,
+        "timestamp": "2025-03-28 20:32:59.274109",
+        "user_id": "U050",
+        "action_type": "download_file",
+        "resource": "resource_49",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 20,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 49623,
+        "timestamp": "2025-03-28 22:23:10.274109",
+        "user_id": "U050",
+        "action_type": "download_file",
+        "resource": "resource_26",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 22,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 49962,
+        "timestamp": "2025-03-28 22:53:41.274109",
+        "user_id": "U050",
+        "action_type": "login",
+        "resource": "resource_42",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 22,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U051",
+    "session_index": 50,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 50939,
+        "timestamp": "2025-03-29 15:09:53.274109",
+        "user_id": "U051",
+        "action_type": "access_resource",
+        "resource": "resource_36",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 15,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 50161,
+        "timestamp": "2025-03-29 15:26:59.274109",
+        "user_id": "U051",
+        "action_type": "download_file",
+        "resource": "resource_4",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 15,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 50079,
+        "timestamp": "2025-03-29 16:04:43.274109",
+        "user_id": "U051",
+        "action_type": "access_resource",
+        "resource": "resource_31",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 16,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 50607,
+        "timestamp": "2025-03-29 16:18:40.274109",
+        "user_id": "U051",
+        "action_type": "download_file",
+        "resource": "resource_44",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 16,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 50287,
+        "timestamp": "2025-03-29 16:25:05.274109",
+        "user_id": "U051",
+        "action_type": "download_file",
+        "resource": "resource_34",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 16,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U052",
+    "session_index": 51,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 51343,
+        "timestamp": "2025-03-29 14:55:33.274109",
+        "user_id": "U052",
+        "action_type": "download_file",
+        "resource": "resource_5",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 14,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 51798,
+        "timestamp": "2025-03-29 16:40:42.274109",
+        "user_id": "U052",
+        "action_type": "download_file",
+        "resource": "resource_49",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 16,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 51579,
+        "timestamp": "2025-03-29 16:40:43.274109",
+        "user_id": "U052",
+        "action_type": "login",
+        "resource": "resource_37",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 16,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 51252,
+        "timestamp": "2025-03-29 16:42:03.274109",
+        "user_id": "U052",
+        "action_type": "login",
+        "resource": "resource_31",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 16,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 51220,
+        "timestamp": "2025-03-29 16:56:49.274109",
+        "user_id": "U052",
+        "action_type": "login",
+        "resource": "resource_26",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 16,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U053",
+    "session_index": 52,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 52008,
+        "timestamp": "2025-03-29 18:47:07.274109",
+        "user_id": "U053",
+        "action_type": "login",
+        "resource": "resource_33",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 18,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 52783,
+        "timestamp": "2025-03-29 18:48:22.274109",
+        "user_id": "U053",
+        "action_type": "login",
+        "resource": "resource_37",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 18,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 52073,
+        "timestamp": "2025-03-29 19:19:43.274109",
+        "user_id": "U053",
+        "action_type": "access_resource",
+        "resource": "resource_16",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 19,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 52288,
+        "timestamp": "2025-03-29 19:22:12.274109",
+        "user_id": "U053",
+        "action_type": "login",
+        "resource": "resource_43",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 19,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 52187,
+        "timestamp": "2025-03-29 19:43:18.274109",
+        "user_id": "U053",
+        "action_type": "download_file",
+        "resource": "resource_2",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 19,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U054",
+    "session_index": 53,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 53353,
+        "timestamp": "2025-03-30 08:00:58.274109",
+        "user_id": "U054",
+        "action_type": "login",
+        "resource": "resource_11",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 8,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 53612,
+        "timestamp": "2025-03-30 08:50:11.274109",
+        "user_id": "U054",
+        "action_type": "access_resource",
+        "resource": "resource_45",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 8,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 53848,
+        "timestamp": "2025-03-30 09:45:07.274109",
+        "user_id": "U054",
+        "action_type": "download_file",
+        "resource": "resource_24",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 9,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 53213,
+        "timestamp": "2025-03-30 09:57:43.274109",
+        "user_id": "U054",
+        "action_type": "access_resource",
+        "resource": "resource_5",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 9,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 53633,
+        "timestamp": "2025-03-30 11:15:32.274109",
+        "user_id": "U054",
+        "action_type": "login",
+        "resource": "resource_17",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 11,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U055",
+    "session_index": 54,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 54221,
+        "timestamp": "2025-03-29 15:05:17.274109",
+        "user_id": "U055",
+        "action_type": "download_file",
+        "resource": "resource_3",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 15,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 54646,
+        "timestamp": "2025-03-29 17:01:16.274109",
+        "user_id": "U055",
+        "action_type": "login",
+        "resource": "resource_2",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 17,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 54186,
+        "timestamp": "2025-03-29 17:22:29.274109",
+        "user_id": "U055",
+        "action_type": "access_resource",
+        "resource": "resource_9",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 17,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 54088,
+        "timestamp": "2025-03-29 18:17:50.274109",
+        "user_id": "U055",
+        "action_type": "download_file",
+        "resource": "resource_3",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 18,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 54287,
+        "timestamp": "2025-03-29 18:21:27.274109",
+        "user_id": "U055",
+        "action_type": "access_resource",
+        "resource": "resource_39",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 18,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U056",
+    "session_index": 55,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 55173,
+        "timestamp": "2025-03-30 05:57:10.274109",
+        "user_id": "U056",
+        "action_type": "download_file",
+        "resource": "resource_27",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 5,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 55275,
+        "timestamp": "2025-03-30 06:15:36.274109",
+        "user_id": "U056",
+        "action_type": "login",
+        "resource": "resource_49",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 6,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 55521,
+        "timestamp": "2025-03-30 06:36:27.274109",
+        "user_id": "U056",
+        "action_type": "access_resource",
+        "resource": "resource_21",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 6,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 55962,
+        "timestamp": "2025-03-30 07:15:35.274109",
+        "user_id": "U056",
+        "action_type": "login",
+        "resource": "resource_16",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 7,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 55287,
+        "timestamp": "2025-03-30 07:47:24.274109",
+        "user_id": "U056",
+        "action_type": "login",
+        "resource": "resource_16",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 7,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U057",
+    "session_index": 56,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 56670,
+        "timestamp": "2025-03-30 13:37:04.274109",
+        "user_id": "U057",
+        "action_type": "download_file",
+        "resource": "resource_12",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 13,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 56626,
+        "timestamp": "2025-03-30 15:53:20.274109",
+        "user_id": "U057",
+        "action_type": "download_file",
+        "resource": "resource_47",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 15,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 56314,
+        "timestamp": "2025-03-30 16:19:45.274109",
+        "user_id": "U057",
+        "action_type": "download_file",
+        "resource": "resource_38",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 16,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 56906,
+        "timestamp": "2025-03-30 16:35:07.274109",
+        "user_id": "U057",
+        "action_type": "login",
+        "resource": "resource_40",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 16,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 56732,
+        "timestamp": "2025-03-30 16:56:16.274109",
+        "user_id": "U057",
+        "action_type": "access_resource",
+        "resource": "resource_10",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 16,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U058",
+    "session_index": 57,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 57286,
+        "timestamp": "2025-03-30 02:03:35.274109",
+        "user_id": "U058",
+        "action_type": "access_resource",
+        "resource": "resource_40",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 2,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 57659,
+        "timestamp": "2025-03-30 02:25:01.274109",
+        "user_id": "U058",
+        "action_type": "download_file",
+        "resource": "resource_39",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 2,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 57217,
+        "timestamp": "2025-03-30 03:14:33.274109",
+        "user_id": "U058",
+        "action_type": "access_resource",
+        "resource": "resource_13",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 3,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 57532,
+        "timestamp": "2025-03-30 04:53:15.274109",
+        "user_id": "U058",
+        "action_type": "login",
+        "resource": "resource_7",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 4,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 57401,
+        "timestamp": "2025-03-30 05:05:59.274109",
+        "user_id": "U058",
+        "action_type": "access_resource",
+        "resource": "resource_36",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 5,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U059",
+    "session_index": 58,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 58725,
+        "timestamp": "2025-03-31 10:04:46.274109",
+        "user_id": "U059",
+        "action_type": "access_resource",
+        "resource": "resource_30",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 10,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 58348,
+        "timestamp": "2025-03-31 10:21:31.274109",
+        "user_id": "U059",
+        "action_type": "login",
+        "resource": "resource_26",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 10,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 58539,
+        "timestamp": "2025-03-31 10:28:37.274109",
+        "user_id": "U059",
+        "action_type": "login",
+        "resource": "resource_29",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 10,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 58405,
+        "timestamp": "2025-03-31 10:56:47.274109",
+        "user_id": "U059",
+        "action_type": "access_resource",
+        "resource": "resource_49",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 10,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 58573,
+        "timestamp": "2025-03-31 13:39:53.274109",
+        "user_id": "U059",
+        "action_type": "login",
+        "resource": "resource_4",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 13,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U060",
+    "session_index": 59,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 59313,
+        "timestamp": "2025-03-31 06:32:15.274109",
+        "user_id": "U060",
+        "action_type": "download_file",
+        "resource": "resource_4",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 6,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 59572,
+        "timestamp": "2025-03-31 06:45:49.274109",
+        "user_id": "U060",
+        "action_type": "access_resource",
+        "resource": "resource_5",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 6,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 59898,
+        "timestamp": "2025-03-31 06:54:04.274109",
+        "user_id": "U060",
+        "action_type": "download_file",
+        "resource": "resource_32",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 6,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 59527,
+        "timestamp": "2025-03-31 07:39:08.274109",
+        "user_id": "U060",
+        "action_type": "download_file",
+        "resource": "resource_35",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 7,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 59018,
+        "timestamp": "2025-03-31 08:31:29.274109",
+        "user_id": "U060",
+        "action_type": "download_file",
+        "resource": "resource_46",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 8,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U061",
+    "session_index": 60,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 60879,
+        "timestamp": "2025-03-30 16:25:50.274109",
+        "user_id": "U061",
+        "action_type": "download_file",
+        "resource": "resource_25",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 16,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 60611,
+        "timestamp": "2025-03-30 18:52:27.274109",
+        "user_id": "U061",
+        "action_type": "login",
+        "resource": "resource_27",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 18,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 60813,
+        "timestamp": "2025-03-30 18:59:08.274109",
+        "user_id": "U061",
+        "action_type": "login",
+        "resource": "resource_38",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 18,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 60657,
+        "timestamp": "2025-03-30 19:31:11.274109",
+        "user_id": "U061",
+        "action_type": "login",
+        "resource": "resource_1",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 19,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 60547,
+        "timestamp": "2025-03-30 19:46:16.274109",
+        "user_id": "U061",
+        "action_type": "access_resource",
+        "resource": "resource_20",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 19,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U062",
+    "session_index": 61,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 61945,
+        "timestamp": "2025-03-31 00:11:22.274109",
+        "user_id": "U062",
+        "action_type": "download_file",
+        "resource": "resource_18",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 0,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 61090,
+        "timestamp": "2025-03-31 00:13:18.274109",
+        "user_id": "U062",
+        "action_type": "access_resource",
+        "resource": "resource_23",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 0,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 61619,
+        "timestamp": "2025-03-31 00:14:49.274109",
+        "user_id": "U062",
+        "action_type": "access_resource",
+        "resource": "resource_9",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 0,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 61329,
+        "timestamp": "2025-03-31 00:16:33.274109",
+        "user_id": "U062",
+        "action_type": "login",
+        "resource": "resource_28",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 0,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 61474,
+        "timestamp": "2025-03-31 00:24:26.274109",
+        "user_id": "U062",
+        "action_type": "access_resource",
+        "resource": "resource_43",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 0,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U063",
+    "session_index": 62,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 62275,
+        "timestamp": "2025-03-31 20:42:10.274109",
+        "user_id": "U063",
+        "action_type": "access_resource",
+        "resource": "resource_15",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 20,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 62196,
+        "timestamp": "2025-03-31 21:33:48.274109",
+        "user_id": "U063",
+        "action_type": "access_resource",
+        "resource": "resource_45",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 21,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 62375,
+        "timestamp": "2025-04-01 00:04:11.274109",
+        "user_id": "U063",
+        "action_type": "access_resource",
+        "resource": "resource_50",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 0,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 62966,
+        "timestamp": "2025-04-01 01:13:41.274109",
+        "user_id": "U063",
+        "action_type": "login",
+        "resource": "resource_14",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 1,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 62979,
+        "timestamp": "2025-04-01 01:16:56.274109",
+        "user_id": "U063",
+        "action_type": "login",
+        "resource": "resource_43",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 1,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U064",
+    "session_index": 63,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 63124,
+        "timestamp": "2025-03-31 09:37:48.274109",
+        "user_id": "U064",
+        "action_type": "login",
+        "resource": "resource_41",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 9,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 63611,
+        "timestamp": "2025-03-31 10:08:13.274109",
+        "user_id": "U064",
+        "action_type": "login",
+        "resource": "resource_20",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 10,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 63327,
+        "timestamp": "2025-03-31 10:18:07.274109",
+        "user_id": "U064",
+        "action_type": "download_file",
+        "resource": "resource_26",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 10,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 63627,
+        "timestamp": "2025-03-31 10:31:43.274109",
+        "user_id": "U064",
+        "action_type": "access_resource",
+        "resource": "resource_1",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 10,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 63446,
+        "timestamp": "2025-03-31 11:41:32.274109",
+        "user_id": "U064",
+        "action_type": "download_file",
+        "resource": "resource_2",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 11,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U065",
+    "session_index": 64,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 64668,
+        "timestamp": "2025-03-31 05:11:33.274109",
+        "user_id": "U065",
+        "action_type": "access_resource",
+        "resource": "resource_44",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 5,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 64962,
+        "timestamp": "2025-03-31 06:22:25.274109",
+        "user_id": "U065",
+        "action_type": "download_file",
+        "resource": "resource_11",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 6,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 64179,
+        "timestamp": "2025-03-31 07:04:14.274109",
+        "user_id": "U065",
+        "action_type": "login",
+        "resource": "resource_7",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 7,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 64481,
+        "timestamp": "2025-03-31 08:05:36.274109",
+        "user_id": "U065",
+        "action_type": "access_resource",
+        "resource": "resource_20",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 8,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 64393,
+        "timestamp": "2025-03-31 09:30:22.274109",
+        "user_id": "U065",
+        "action_type": "download_file",
+        "resource": "resource_21",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 9,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U066",
+    "session_index": 65,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 65232,
+        "timestamp": "2025-04-01 02:14:58.274109",
+        "user_id": "U066",
+        "action_type": "download_file",
+        "resource": "resource_3",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 2,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 65682,
+        "timestamp": "2025-04-01 03:58:16.274109",
+        "user_id": "U066",
+        "action_type": "download_file",
+        "resource": "resource_23",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 3,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 65635,
+        "timestamp": "2025-04-01 04:03:24.274109",
+        "user_id": "U066",
+        "action_type": "login",
+        "resource": "resource_45",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 4,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 65396,
+        "timestamp": "2025-04-01 04:18:50.274109",
+        "user_id": "U066",
+        "action_type": "download_file",
+        "resource": "resource_2",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 4,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 65707,
+        "timestamp": "2025-04-01 05:49:59.274109",
+        "user_id": "U066",
+        "action_type": "access_resource",
+        "resource": "resource_46",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 5,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U067",
+    "session_index": 66,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 66493,
+        "timestamp": "2025-04-01 06:00:52.274109",
+        "user_id": "U067",
+        "action_type": "access_resource",
+        "resource": "resource_6",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 6,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 66402,
+        "timestamp": "2025-04-01 06:54:19.274109",
+        "user_id": "U067",
+        "action_type": "access_resource",
+        "resource": "resource_27",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 6,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 66966,
+        "timestamp": "2025-04-01 07:30:46.274109",
+        "user_id": "U067",
+        "action_type": "download_file",
+        "resource": "resource_18",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 7,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 66681,
+        "timestamp": "2025-04-01 07:55:31.274109",
+        "user_id": "U067",
+        "action_type": "access_resource",
+        "resource": "resource_34",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 7,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 66242,
+        "timestamp": "2025-04-01 12:23:30.274109",
+        "user_id": "U067",
+        "action_type": "download_file",
+        "resource": "resource_22",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 12,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U068",
+    "session_index": 67,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 68000,
+        "timestamp": "2025-03-31 18:39:49.274109",
+        "user_id": "U068",
+        "action_type": "access_resource",
+        "resource": "resource_32",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 18,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 67828,
+        "timestamp": "2025-03-31 21:08:24.274109",
+        "user_id": "U068",
+        "action_type": "access_resource",
+        "resource": "resource_8",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 21,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 67212,
+        "timestamp": "2025-03-31 21:23:58.274109",
+        "user_id": "U068",
+        "action_type": "login",
+        "resource": "resource_31",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 21,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 67529,
+        "timestamp": "2025-03-31 22:08:50.274109",
+        "user_id": "U068",
+        "action_type": "login",
+        "resource": "resource_9",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 22,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 67275,
+        "timestamp": "2025-03-31 22:11:47.274109",
+        "user_id": "U068",
+        "action_type": "access_resource",
+        "resource": "resource_32",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 22,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U069",
+    "session_index": 68,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 68796,
+        "timestamp": "2025-04-01 11:35:36.274109",
+        "user_id": "U069",
+        "action_type": "download_file",
+        "resource": "resource_20",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 11,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 68745,
+        "timestamp": "2025-04-01 11:58:03.274109",
+        "user_id": "U069",
+        "action_type": "access_resource",
+        "resource": "resource_30",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 11,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 68935,
+        "timestamp": "2025-04-01 12:13:11.274109",
+        "user_id": "U069",
+        "action_type": "download_file",
+        "resource": "resource_35",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 12,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 68157,
+        "timestamp": "2025-04-01 13:13:40.274109",
+        "user_id": "U069",
+        "action_type": "download_file",
+        "resource": "resource_17",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 13,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 68823,
+        "timestamp": "2025-04-01 13:56:14.274109",
+        "user_id": "U069",
+        "action_type": "access_resource",
+        "resource": "resource_29",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 13,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U070",
+    "session_index": 69,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 69086,
+        "timestamp": "2025-03-31 22:29:08.274109",
+        "user_id": "U070",
+        "action_type": "download_file",
+        "resource": "resource_19",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 22,
+        "num_files_accessed": 4,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 69648,
+        "timestamp": "2025-03-31 22:39:01.274109",
+        "user_id": "U070",
+        "action_type": "download_file",
+        "resource": "resource_46",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 22,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 69222,
+        "timestamp": "2025-03-31 22:59:07.274109",
+        "user_id": "U070",
+        "action_type": "download_file",
+        "resource": "resource_2",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 22,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 69536,
+        "timestamp": "2025-03-31 22:59:45.274109",
+        "user_id": "U070",
+        "action_type": "access_resource",
+        "resource": "resource_16",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 22,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 69148,
+        "timestamp": "2025-03-31 23:24:17.274109",
+        "user_id": "U070",
+        "action_type": "login",
+        "resource": "resource_48",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 23,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U071",
+    "session_index": 70,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 70654,
+        "timestamp": "2025-04-01 22:29:59.274109",
+        "user_id": "U071",
+        "action_type": "download_file",
+        "resource": "resource_42",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 22,
+        "num_files_accessed": 1,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 70082,
+        "timestamp": "2025-04-01 22:32:15.274109",
+        "user_id": "U071",
+        "action_type": "access_resource",
+        "resource": "resource_12",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 22,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 70465,
+        "timestamp": "2025-04-01 22:38:58.274109",
+        "user_id": "U071",
+        "action_type": "download_file",
+        "resource": "resource_2",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 22,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 70606,
+        "timestamp": "2025-04-01 23:05:29.274109",
+        "user_id": "U071",
+        "action_type": "access_resource",
+        "resource": "resource_16",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 23,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 70657,
+        "timestamp": "2025-04-02 00:49:40.274109",
+        "user_id": "U071",
+        "action_type": "login",
+        "resource": "resource_22",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 0,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U072",
+    "session_index": 71,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 71509,
+        "timestamp": "2025-04-01 10:52:12.274109",
+        "user_id": "U072",
+        "action_type": "access_resource",
+        "resource": "resource_26",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 10,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 71568,
+        "timestamp": "2025-04-01 11:32:35.274109",
+        "user_id": "U072",
+        "action_type": "access_resource",
+        "resource": "resource_32",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 11,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 71853,
+        "timestamp": "2025-04-01 11:32:58.274109",
+        "user_id": "U072",
+        "action_type": "download_file",
+        "resource": "resource_8",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 11,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 71451,
+        "timestamp": "2025-04-01 11:56:13.274109",
+        "user_id": "U072",
+        "action_type": "login",
+        "resource": "resource_10",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 11,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 71687,
+        "timestamp": "2025-04-01 12:02:47.274109",
+        "user_id": "U072",
+        "action_type": "download_file",
+        "resource": "resource_5",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 12,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U073",
+    "session_index": 72,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 72367,
+        "timestamp": "2025-04-01 06:40:52.274109",
+        "user_id": "U073",
+        "action_type": "download_file",
+        "resource": "resource_16",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 6,
+        "num_files_accessed": 5,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 72106,
+        "timestamp": "2025-04-01 06:46:02.274109",
+        "user_id": "U073",
+        "action_type": "access_resource",
+        "resource": "resource_25",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 6,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 72546,
+        "timestamp": "2025-04-01 08:40:10.274109",
+        "user_id": "U073",
+        "action_type": "download_file",
+        "resource": "resource_27",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 8,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 72990,
+        "timestamp": "2025-04-01 10:08:46.274109",
+        "user_id": "U073",
+        "action_type": "access_resource",
+        "resource": "resource_41",
+        "location": "US",
+        "device": "mobile",
+        "hour_of_day": 10,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 72843,
+        "timestamp": "2025-04-01 11:18:53.274109",
+        "user_id": "U073",
+        "action_type": "login",
+        "resource": "resource_45",
+        "location": "US",
+        "device": "vpn",
+        "hour_of_day": 11,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U074",
+    "session_index": 73,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 73753,
+        "timestamp": "2025-04-01 08:44:38.274109",
+        "user_id": "U074",
+        "action_type": "download_file",
+        "resource": "resource_43",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 8,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 73136,
+        "timestamp": "2025-04-01 08:46:35.274109",
+        "user_id": "U074",
+        "action_type": "access_resource",
+        "resource": "resource_37",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 8,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 73285,
+        "timestamp": "2025-04-01 09:29:03.274109",
+        "user_id": "U074",
+        "action_type": "download_file",
+        "resource": "resource_5",
+        "location": "UK",
+        "device": "vpn",
+        "hour_of_day": 9,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 73852,
+        "timestamp": "2025-04-01 10:26:10.274109",
+        "user_id": "U074",
+        "action_type": "download_file",
+        "resource": "resource_42",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 10,
+        "num_files_accessed": 3,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 73175,
+        "timestamp": "2025-04-01 12:47:18.274109",
+        "user_id": "U074",
+        "action_type": "access_resource",
+        "resource": "resource_17",
+        "location": "IN",
+        "device": "vpn",
+        "hour_of_day": 12,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "U075",
+    "session_index": 74,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": [
+      {
+        "id": 74243,
+        "timestamp": "2025-04-01 21:36:48.274109",
+        "user_id": "U075",
+        "action_type": "access_resource",
+        "resource": "resource_41",
+        "location": "IN",
+        "device": "laptop",
+        "hour_of_day": 21,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 74937,
+        "timestamp": "2025-04-01 21:52:09.274109",
+        "user_id": "U075",
+        "action_type": "login",
+        "resource": "resource_45",
+        "location": "IN",
+        "device": "mobile",
+        "hour_of_day": 21,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 74622,
+        "timestamp": "2025-04-01 22:31:41.274109",
+        "user_id": "U075",
+        "action_type": "access_resource",
+        "resource": "resource_40",
+        "location": "UK",
+        "device": "mobile",
+        "hour_of_day": 22,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 74205,
+        "timestamp": "2025-04-01 22:39:42.274109",
+        "user_id": "U075",
+        "action_type": "login",
+        "resource": "resource_13",
+        "location": "UK",
+        "device": "laptop",
+        "hour_of_day": 22,
+        "num_files_accessed": 0,
+        "is_synthetic_anomaly": 0
+      },
+      {
+        "id": 74122,
+        "timestamp": "2025-04-01 23:20:15.274109",
+        "user_id": "U075",
+        "action_type": "download_file",
+        "resource": "resource_9",
+        "location": "US",
+        "device": "laptop",
+        "hour_of_day": 23,
+        "num_files_accessed": 2,
+        "is_synthetic_anomaly": 0
+      }
+    ]
+  },
+  {
+    "user_id": "anon_user_900",
+    "session_index": 75,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_901",
+    "session_index": 76,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_902",
+    "session_index": 77,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_903",
+    "session_index": 78,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_904",
+    "session_index": 79,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_905",
+    "session_index": 80,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_906",
+    "session_index": 81,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_907",
+    "session_index": 82,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_908",
+    "session_index": 83,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_909",
+    "session_index": 84,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_910",
+    "session_index": 85,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_911",
+    "session_index": 86,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_912",
+    "session_index": 87,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_913",
+    "session_index": 88,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_914",
+    "session_index": 89,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_915",
+    "session_index": 90,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_916",
+    "session_index": 91,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_917",
+    "session_index": 92,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_918",
+    "session_index": 93,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_919",
+    "session_index": 94,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_920",
+    "session_index": 95,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_921",
+    "session_index": 96,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_922",
+    "session_index": 97,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_923",
+    "session_index": 98,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_924",
+    "session_index": 99,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_925",
+    "session_index": 100,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_926",
+    "session_index": 101,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_927",
+    "session_index": 102,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_928",
+    "session_index": 103,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_929",
+    "session_index": 104,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_930",
+    "session_index": 105,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_931",
+    "session_index": 106,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_932",
+    "session_index": 107,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_933",
+    "session_index": 108,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_934",
+    "session_index": 109,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_935",
+    "session_index": 110,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_936",
+    "session_index": 111,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_937",
+    "session_index": 112,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_938",
+    "session_index": 113,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_939",
+    "session_index": 114,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_940",
+    "session_index": 115,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_941",
+    "session_index": 116,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_942",
+    "session_index": 117,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_943",
+    "session_index": 118,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_944",
+    "session_index": 119,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_945",
+    "session_index": 120,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_946",
+    "session_index": 121,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_947",
+    "session_index": 122,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_948",
+    "session_index": 123,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_949",
+    "session_index": 124,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_950",
+    "session_index": 125,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_951",
+    "session_index": 126,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_952",
+    "session_index": 127,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_953",
+    "session_index": 128,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_954",
+    "session_index": 129,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_955",
+    "session_index": 130,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_956",
+    "session_index": 131,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_957",
+    "session_index": 132,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_958",
+    "session_index": 133,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_959",
+    "session_index": 134,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_960",
+    "session_index": 135,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_961",
+    "session_index": 136,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_962",
+    "session_index": 137,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_963",
+    "session_index": 138,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_964",
+    "session_index": 139,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_965",
+    "session_index": 140,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_966",
+    "session_index": 141,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_967",
+    "session_index": 142,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_968",
+    "session_index": 143,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_969",
+    "session_index": 144,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_970",
+    "session_index": 145,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_971",
+    "session_index": 146,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_972",
+    "session_index": 147,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_973",
+    "session_index": 148,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_974",
+    "session_index": 149,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_975",
+    "session_index": 150,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_976",
+    "session_index": 151,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_977",
+    "session_index": 152,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_978",
+    "session_index": 153,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_979",
+    "session_index": 154,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_980",
+    "session_index": 155,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_981",
+    "session_index": 156,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_982",
+    "session_index": 157,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_983",
+    "session_index": 158,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_984",
+    "session_index": 159,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_985",
+    "session_index": 160,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_986",
+    "session_index": 161,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_987",
+    "session_index": 162,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_988",
+    "session_index": 163,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_989",
+    "session_index": 164,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_990",
+    "session_index": 165,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_991",
+    "session_index": 166,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_992",
+    "session_index": 167,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_993",
+    "session_index": 168,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_994",
+    "session_index": 169,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_995",
+    "session_index": 170,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_996",
+    "session_index": 171,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_997",
+    "session_index": 172,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_998",
+    "session_index": 173,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  },
+  {
+    "user_id": "anon_user_999",
+    "session_index": 174,
+    "anomaly_score": 0.0,
+    "predicted_label": 0,
+    "true_label": 0,
+    "logs": []
+  }
+]
