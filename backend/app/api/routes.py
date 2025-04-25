@@ -215,3 +215,26 @@ def detect():
 
     results = detect_anomalies(df)
     return results
+
+# --- SVM Anomalous Logs Endpoint ---
+@app.route('/api/anomalous-logs')
+def get_anomalous_logs():
+    import pandas as pd
+    from flask import jsonify
+    file_path = Path(__file__).parents[2] / 'flagged_logs.csv'
+    if not file_path.exists():
+        return jsonify({"error": "flagged_logs.csv not found"}), 404
+    df = pd.read_csv(file_path)
+    return jsonify(df.to_dict(orient="records"))
+
+# --- Transformer Suspicious Sessions Endpoint ---
+@app.route('/api/suspicious-users')
+def get_suspicious_sessions():
+    import json
+    from flask import jsonify
+    file_path = Path(__file__).parents[2] / 'suspicious_sessions.json'
+    if not file_path.exists():
+        return jsonify({"error": "suspicious_sessions.json not found"}), 404
+    with open(file_path) as f:
+        data = json.load(f)
+    return jsonify(data)

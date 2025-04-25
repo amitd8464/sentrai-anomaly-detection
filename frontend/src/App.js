@@ -16,6 +16,8 @@ function App() {
         <div className="main-content">
           <Topbar />
           <Routes>
+          <Route path='/anomalous-logs' element={<AnomalousLogs />} />
+          <Route path='/suspicious-users' element={<SuspiciousUsers />} />
             <Route path="/" element={<Dashboard />} />
             <Route path="/logs" element={<Logs />} />
             <Route path="/anomalies" element={<Detect />} />
