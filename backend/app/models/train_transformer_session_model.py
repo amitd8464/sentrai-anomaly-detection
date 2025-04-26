@@ -31,12 +31,9 @@ class LogSessionDataset(Dataset):
         df['timestamp'] = pd.to_datetime(df['timestamp'])
         self.sessions = []
         self.labels = []
+        self.user_ids = []
+        self.session_logs = []  # ✅ NEW: store logs alongside sessions
 
-        print("Columns:", df.columns.tolist())
-        print("Any NaNs in important fields:",
-              df[['hour_of_day', 'num_files_accessed', 'action_type', 'resource', 'location', 'device']].isnull().any())
-
-        # Encode only categorical columns
         cat_cols = ['action_type', 'resource', 'location', 'device']
         self.label_encoders = {}
         for col in cat_cols:
@@ -48,10 +45,10 @@ class LogSessionDataset(Dataset):
         print(f"Total users: {len(grouped)}")
 
         for user_id, group in grouped:
-            logs = group.sort_values('timestamp')
+            logs = group.sort_values('timestamp').reset_index(drop=True)
             session = []
             session_labels = []
-            for _, row in logs.iterrows():
+            for idx, row in logs.iterrows():
                 features = [
                     int(row['hour_of_day']),
                     int(row['num_files_accessed']),
@@ -66,15 +63,25 @@ class LogSessionDataset(Dataset):
                 if len(session) == session_length:
                     self.sessions.append(session.copy())
                     self.labels.append(1 if sum(session_labels) > 0 else 0)
-                    print(f"Added session for user {user_id}, label={self.labels[-1]}")
+                    self.user_ids.append(user_id)
+                    session_logs = logs.iloc[idx - session_length + 1: idx + 1].copy()
+
+                    # Convert timestamps to string
+                    session_logs['timestamp'] = session_logs['timestamp'].apply(lambda x: x.isoformat())
+
+                    self.session_logs.append(session_logs.to_dict(orient='records'))
+
                     session = []
                     session_labels = []
 
-            # Include trailing session if full
+            # If leftover partial session at end (optional: only if full session)
             if len(session) == session_length:
                 self.sessions.append(session.copy())
                 self.labels.append(1 if sum(session_labels) > 0 else 0)
-                print(f"Final session for user {user_id} added, label={self.labels[-1]}")
+                self.user_ids.append(user_id)
+                self.session_logs.append(
+                    logs.iloc[-session_length:].to_dict(orient='records')
+                )
 
     def __len__(self):
         return len(self.sessions)
@@ -82,7 +89,12 @@ class LogSessionDataset(Dataset):
     def __getitem__(self, idx):
         x = torch.tensor(self.sessions[idx], dtype=torch.float32)
         y = torch.tensor(self.labels[idx], dtype=torch.float32)
-        return x, y
+        user_id = self.user_ids[idx]
+        logs = self.session_logs[idx]
+        return x, y, user_id, logs
+
+
+
 
 # ------------------------
 # Transformer Model
@@ -121,7 +133,7 @@ def train_model():
     for epoch in range(10):
         model.train()
         total_loss = 0
-        for x, y in dataloader:
+        for x, y, _, _ in dataloader:
             x, y = x.to(DEVICE), y.to(DEVICE)
             optimizer.zero_grad()
             output = model(x)

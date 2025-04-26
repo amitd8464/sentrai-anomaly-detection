@@ -217,7 +217,7 @@ def detect():
     return results
 
 # --- SVM Anomalous Logs Endpoint ---
-@app.route('/api/anomalous-logs')
+@api_bp.route('/api/anomalous-logs')
 def get_anomalous_logs():
     import pandas as pd
     from flask import jsonify
@@ -228,7 +228,7 @@ def get_anomalous_logs():
     return jsonify(df.to_dict(orient="records"))
 
 # --- Transformer Suspicious Sessions Endpoint ---
-@app.route('/api/suspicious-users')
+@api_bp.route('/api/suspicious-users')
 def get_suspicious_sessions():
     import json
     from flask import jsonify
