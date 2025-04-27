@@ -1,16 +1,8 @@
-# SecuScope
+# SentrAI
 
-Full-stack application for simulating and detecting insider threats via behavioral analytics.
+Real-time anomaly detection program powered by deep learning PyTorch Transformers and OneClassSVM, built on Flask and Vite-React for seamless monitoring.
 
 ## Project Structure
-
-```
-secu-scope-smooth/
-├── backend/            # Flask backend with SQLite data store
-├── frontend/           # React.js frontend dashboard
-├── .gitignore
-└── README.md
-```
 
 ## Setup
 1. Backend: See `backend/README.md`.
