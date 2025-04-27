@@ -143,7 +143,8 @@ def train_model():
             total_loss += loss.item()
         print(f"Epoch {epoch+1} Loss: {total_loss:.4f}")
 
-    torch.save(model.state_dict(), "session_transformer.pt")
+    save_path = Path(__file__).parent / "session_transformer.pt"
+    torch.save(model.state_dict(), save_path)
 
 if __name__ == '__main__':
     train_model()

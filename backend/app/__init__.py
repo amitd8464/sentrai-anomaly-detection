@@ -36,5 +36,8 @@ def create_app():
         db.create_all()                             # ✅ CREATE TABLES RIGHT AFTER
         from backend.app.api.routes import api_bp   # ✅ IMPORT ROUTES AFTERWARDS
         app.register_blueprint(api_bp, url_prefix='/api')
+        from backend.app.api.anomaly_routes import anomaly_bp
+        app.register_blueprint(anomaly_bp, url_prefix='/anomaly')
+
 
     return app

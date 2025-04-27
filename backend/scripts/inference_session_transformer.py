@@ -20,7 +20,10 @@ def clean_log_entry(entry):
 
 def run_inference():
     model = SessionTransformer(input_dim=6)
-    model.load_state_dict(torch.load("session_transformer.pt", map_location=DEVICE))
+
+    model_path = Path(__file__).parents[1] / "app" / "models" / "session_transformer.pt"
+    model.load_state_dict(torch.load(model_path, map_location=DEVICE))
+
     model.to(DEVICE)
     model.eval()
 
@@ -47,8 +50,10 @@ def run_inference():
             "logs": cleaned_logs
         })
 
-    with open("suspicious_sessions.json", "w") as f:
+    output_path = Path(__file__).parents[1] / "app" / "data" / "suspicious_sessions.json"
+    with open(output_path, "w") as f:
         json.dump(session_outputs, f, indent=2, default=str)
+
 
     print(f"✅ Saved {len(session_outputs)} session scores to suspicious_sessions.json")
 
