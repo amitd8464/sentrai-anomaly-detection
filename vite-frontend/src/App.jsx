@@ -1,4 +1,12 @@
-export default function App() {
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Sidebar from './components/Sidebar';
+import AllLogs from './pages/AllLogs';
+import FlaggedLogs from './pages/FlaggedLogs';
+import FlaggedUsers from './pages/FlaggedUsers';
+import UserSessions from './pages/UserSessions';
+
+function App() {
     return (
       <Router>
         <div className="flex">
@@ -15,3 +23,5 @@ export default function App() {
       </Router>
     );
   }
+  
+  export default App;

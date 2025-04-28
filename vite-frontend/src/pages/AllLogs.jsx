@@ -1,3 +1,6 @@
+import React from 'react';
+import { useState, useEffect } from 'react';
+
 export default function AllLogs() {
     const [logs, setLogs] = useState([]);
   
